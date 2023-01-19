@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 #Completing an until loop printing Best School 10 times
-i=0
-until [ i -ge 10 ]; do
+i=1
+until [ i -ge 10 ]
+do
 	echo "Best School"
-	let i+=1
+	((i++))
 done
