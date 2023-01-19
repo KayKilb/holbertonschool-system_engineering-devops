@@ -8,9 +8,10 @@ do
         [[ $i -eq 4 ]];
         then
                 echo "bad luck"
-        	else
-        	[[ $i -eq 9 ]];
-       	        	echo "good luck"
-        	fi
-        	((i++))
+        	
+	else
+		[[ $i -eq 8 ]];
+       	        echo "good luck"
+        fi
+        ((i++))
 done
