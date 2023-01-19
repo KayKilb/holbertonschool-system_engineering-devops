@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 #Best School written 10 times using while
-while [$i -le 10]
+i=1
+while [ $i -le 10 ]
 do
    echo "Best School"
    ((i++))
