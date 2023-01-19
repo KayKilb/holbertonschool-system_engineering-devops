@@ -1,2 +1,2 @@
 #!/bin/bash
-$ echo {aa..on} {op..zz} | '/n' | wc -l
+$ echo (({a..z} {a..z} | '-oo' '/n' | wc -l))
