@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Do not use kill
+
+pkill -f beyond
