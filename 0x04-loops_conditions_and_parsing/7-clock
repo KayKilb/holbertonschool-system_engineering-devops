@@ -5,8 +5,10 @@ h=0
 m=1
 while [ $h -le 12 ]; do
     echo "Hour: ${h}"
-    while [ $m -lt 59 ]; do
-	echo "Minute: ${m}"
-    let m+=1
+    while [ $m -le 60 ]; do
+	echo $m
+	let m+=1
+    done
+    let m=1
     let h+=1
 done
