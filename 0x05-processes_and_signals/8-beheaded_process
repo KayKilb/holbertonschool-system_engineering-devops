@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#script to kill 7s procees
+
+pkill -SIGKILL -f highlander
