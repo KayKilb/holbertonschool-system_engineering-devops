@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Stops highlander loop
+
+pkill -f highlander
