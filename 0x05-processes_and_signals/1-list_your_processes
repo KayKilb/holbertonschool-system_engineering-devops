@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#A script that lists the current running processes
+#User oriented format and hierarchy
+
+ps -faux
