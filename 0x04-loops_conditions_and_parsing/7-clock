@@ -6,7 +6,7 @@ m=1
 while [ $h -le 12 ]; do
     echo "Hour: ${h}"
     while [ $m -le 59 ]; do
-	echo "Minute: ${m}"
+	echo $m
 	let m+=1
     done
     let m=1
