@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Killing the indefinite script from precious file
+
+kill "$(ps -x | pgrep -f beyond)"
